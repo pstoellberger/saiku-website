@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <style>
+            body {
+                padding-top: 64px;
+                padding-bottom: 0px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+        <!-- /Google Fonts -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
+        </script>
+
+        <!-- bxSlider Javascript file -->
+        <script src="js/jquery.bxslider.min.js"></script>
+        <!-- bxSlider CSS file -->
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+        
+        <!-- Magnific Popup core CSS file -->
+        <link rel="stylesheet" href="css/magnific-popup.css"> 
+        <!-- Magnific Popup core JS file -->
+        <script src="js/jquery.magnific-popup.min.js"></script> 
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body class="theMainPage">
+        <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+                    <a class="brand" href="#"><img src="img/saiku-logo.png"></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="features.html">Features</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="services.html">Services</a>
+                            </li>
+                            <li>
+                                <a href="customers.html">Customers</a>
+                            </li>
+                            <li>
+                                <a href="company.html">Company</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Do More <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="documentation.html">Documentation</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="http://demo.analytical-labs.com/">Demo</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="#">Forum</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="#">Contacts</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        {{ content }}
+
+        <div class="fullWidth footer">
+            <div class="container">
+                <div class="row">
+                    <div class="span15">
+                        <a href="" class="titleLink">FEATURES</a>
+                        <br>
+                        <a href="">End User</a>
+                        <br>
+                        <a href="">Technical</a>
+                    </div>
+                    <div class="span15">
+                        <a href="" class="titleLink">PRICING</a>
+                        <br>
+                        <a href="">Sponsorship</a>
+                    </div>
+                    <div class="span15">
+                        <a href="" class="titleLink">SERVICES</a>
+                        <br>
+                        <a href="">Development</a>
+                        <br>
+                        <a href="">Integration</a>
+                        <br>
+                        <a href="">Saiku in Cloud</a>
+                    </div>
+                    <div class="span15">
+                        <a href="" class="titleLink">COMPANY</a>
+                        <br>
+                        <a href="">Meteorite BI</a>
+                        <br>
+                        <a href="">Our History</a>
+                        <br>
+                        <a href="">Management Team</a>
+                    </div>
+                    <div class="span15">
+                        <a href="" class="titleLink">CONTACT US</a>
+                        <br>
+                        <a href="mailto:info@saiku.com">info@saiku.com</a>
+                    </div>
+                    <div class="span3" style="float:right;">
+                        <a href="http://demo.analytical-labs.com/" class="btn special openNewWindow">TRY DEMO NOW <span class="icon"></span></a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function() {
+                $('.bxslider').bxSlider({
+                    mode: 'fade',
+                    randomStart: true,
+                    preloadImages: 'all',
+                    auto: true,
+                    pause: 6000,
+                    speed: 1000
+                });
+                
+                $('.watchVideo').magnificPopup({
+                    type:'iframe'
+                });
+            });
+        </script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']]; ( function(d, t) {
+                    var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                    g.src = '//www.google-analytics.com/ga.js';
+                    s.parentNode.insertBefore(g, s)
+                }(document, 'script'));
+        </script>
+    </body>
+</html>
