@@ -13,20 +13,24 @@
 }
 
 #headerIndex {
-	background-image: url(../img/headerBackground.png);
+	background-image: url(../img/headerBackgroundsmall.png);
 	background-repeat: repeat-x;
 	background-color: #ebebeb;
-	border-bottom: 1px #e1e1e1 solid;
+	/* border-bottom: 1px #e1e1e1 solid; */
 }
 
 #headerIndex h1.sliderTitle {
 	color: #e1e1e1;
+	background-image: url(../img/saiku_free_small.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 90px;
+
 }
 
 #headerIndex h1#saikuDescription {
 	color: #79100f;
 	text-align: center;
-	margin-top: 100px;
 }
 
 .headerArea {
@@ -45,12 +49,11 @@
 }
 
 #headerBottom {
-	height: 127px;
+	height: 92px;
 	width: 100%;
-	background-image: url(../img/headerBackgroundBottom.png);
-	background-position: bottom left 1px;
+	background-image: url(../img/saiku_free_small.png);
+	background-position: center;
 	background-repeat: no-repeat;
-	margin-top: 50px;
 }
 
 #headerBottomContinuation {
@@ -247,7 +250,7 @@ a.btn.regularButton.getStarted .icon {
 
 .headerLinkButtons {
 	position:absolute;
-	top:360px;
+	top:260px;
 }
 
 .headerLinkButtonsNotIndex {
